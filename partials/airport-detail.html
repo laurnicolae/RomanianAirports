@@ -1,0 +1,25 @@
+<header class="bar bar-nav">
+  <a class="btn btn-link btn-nav pull-left" href="#airports">
+    <span class="icon icon-left-nav"></span>
+  </a>
+  <input ng-model="query" class="pull-right" placeholder="Search" />
+  <h1 class="title">{{airport.name}} {{airport.code}}</h1>
+</header>
+
+<div class="content">
+  <div class="card">
+  <ul class="table-view">
+    <li class="table-view-cell table-view-divider">Runways</li>
+    <li class="table-view-cell">Runway <span class="pull-right">{{airport.runways}}</span></li>
+    <li class="table-view-cell">Elevation <span class="pull-right">{{airport.elevation}} ft</span></li>
+    <li class="table-view-cell table-view-divider">Divider</li>
+    <li class="table-view-cell">Item 3</li>
+    <li class="table-view-cell">Item 4</li>
+  </ul>
+  </div>
+</div>
+
+<a href="#airports">Back</a>
+    </div>
+  </div>
+</div>

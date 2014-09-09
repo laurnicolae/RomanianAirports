@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Alba Sibot",
+        "code": "",
+        "status": "closed",
+        "latitude": "N 45 55 32 ",
+        "longitude": "E 23 22 58",
+        "runways": "06-24, 900 m, grass",
+        "elevation": 700,
+        "radio": "123,450",
+        "app": "",
+        "contact": "Corneliu Pavel",
+        "phone": "+40744559873"
+    },
+    {
+        "name": "Alexeni MIL X",
+        "code": "",
+        "status": "inoperable",
+        "latitude": "",
+        "longitude": "",
+        "runways": "",
+        "elevation": null,
+        "radio": "",
+        "app": "",
+        "contact": "",
+        "phone": null
+    },
+    {
+        "name": "Arad Airport",
+        "code": "LRAR",
+        "status": "",
+        "latitude": "N 46 10 36",
+        "longitude": "E 21 15 43",
+        "runways": "",
+        "elevation": null,
+        "radio": "",
+        "app": "",
+        "contact": "",
+        "phone": null
+    },
+    {
+        "name": "Arad Siria",
+        "code": "",
+        "status": "",
+        "latitude": "N 46 16 21",
+        "longitude": "E 21 36 26",
+        "runways": "07-25, 600 m, grass",
+        "elevation": 420,
+        "radio": "123,450",
+        "app": "",
+        "contact": "",
+        "phone": null
+    },
+    {
+        "name": "Bucuresti Clinceni",
+        "code": "",
+        "status": "",
+        "latitude": "N 44 21 36",
+        "longitude": "E 25 56 08",
+        "runways": "06-24, 1000 m, grass",
+        "elevation": 262,
+        "radio": "128,300",
+        "app": "",
+        "contact": "",
+        "phone": null
+    },
+    {
+        "name": "Bucuresti Baneasa",
+        "code": "LRBS",
+        "status": "",
+        "latitude": "N 44 30 11",
+        "longitude": "E 26 06 07",
+        "runways": "07-25, asphalt",
+        "elevation": 297,
+        "radio": "120,800",
+        "app": "120,600",
+        "contact": "",
+        "phone": null
+    },
+    {
+        "name": "Bucuresti Otopeni",
+        "code": "LROP",
+        "status": "",
+        "latitude": "",
+        "longitude": "",
+        "runways": "08-26, asphalt",
+        "elevation": 297,
+        "radio": "",
+        "app": "118,250",
+        "contact": "",
+        "phone": null
+    }
+]

@@ -1,0 +1,23 @@
+.bar-tab.bottom
+{
+	bottom: 0;
+	top: auto;
+}
+
+.tab-item .icon.icon-airports
+{
+	width: 34px;
+	background: url('images/airports.png') no-repeat;
+}
+
+.tab-item .icon.icon-in-flight
+{
+	width: 34px;
+	background: url('images/in-flight.png') no-repeat 0 -5px;
+}
+
+.tab-item .icon.icon-weather
+{
+	width: 34px;
+	background: url('images/weather.png') no-repeat 0 3px;
+}

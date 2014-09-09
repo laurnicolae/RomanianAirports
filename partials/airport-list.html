@@ -1,0 +1,17 @@
+<header class="bar bar-nav">
+  <input ng-model="query" class="pull-right" placeholder="Search" />
+  <h1 class="title">Romanian Airports</h1>
+</header>
+
+<div class="content">
+  <div class="card">
+    <ul class="table-view">
+      <li ng-repeat="airport in airports track by $index | filter:query" class="table-view-cell">
+        <a class="navigate-right" href="#/airports/{{$index}}">
+          <strong>{{airport.name}} {{airport.status}}</strong>
+          <span class="pull-right">{{airport.code}}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

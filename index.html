@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+* @file index.html
+*
+* Template application that shows examples of how to access
+* device services from JavaScript using the Wormhole library.
+-->
+<html ng-app="airportApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Romanian Airports</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+    	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="ratchet/css/ratchet.min.css" rel="stylesheet">
+		<link href="ratchet/css/ratchet-theme-ios.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="ratchet/js/ratchet.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/wormhole.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+  		<script src="js/app.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/controllers.js"></script>
+		<script type="text/javascript">
+			
+
+			// Register event listeners.
+			// Close the application when the back key is pressed.
+			document.addEventListener(
+				"backbutton",
+				function() { mosync.app.exit(); },
+				true);
+		</script>
+	</head>
+	<body>
+
+	    <div ng-view></div>
+	    
+	    <nav class="bar bar-tab bottom">
+		  <a class="tab-item" href="#airports">
+		    <span class="icon icon-airports"></span>
+		    <span class="tab-label">Airports</span>
+		  </a>
+		  <a class="tab-item" href="#in-flight">
+		    <span class="icon icon-in-flight"></span>
+		    <span class="tab-label">In Flight</span>
+		  </a>
+		  <a class="tab-item" href="#weather">
+		    <span class="icon icon-weather"></span>
+		    <span class="tab-label">Weather</span>
+		  </a>
+		</nav>
+	</body>
+</html>
